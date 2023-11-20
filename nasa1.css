@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #023047;
+    padding: 1.5em;
+    
+}
+
+h1 {
+    font-size: 2.45rem;
+    color: #d8f2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.65rem;
+}
+
+main {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1em 0 2em;
+    max-width: 550px;
+}
+
+p {
+    font-size: 1.125rem;
+    margin: 0 0 1.5em 0;
+}
+
+.error-msg {
+    background-color: rgb(255, 159, 143);
+    padding: 1em 0;
+    margin-bottom: 0;
+    display: none;
+}
+
+ul {
+    text-align: left;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: 1.125rem;
+    padding: 0;
+}
