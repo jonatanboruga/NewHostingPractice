@@ -5,8 +5,9 @@ const errorMsg = document.querySelector("error-msg");
 const dateInput = document.querySelector("#date-input");
 const submitButton = document.querySelector("#submit")
 
-const NASA_KEY = "H4fJiZhQWJG1pVlVoVtdk9p6YIjsTj4W2bv8BcTh";
-const apodURL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
+// const NASA_KEY = "H4fJiZhQWJG1pVlVoVtdk9p6YIjsTj4W2bv8BcTh";
+// const apodURL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
+const apodURL ="https://spectacular-meerkat-ffd03e.netlify.app/.netlify/functions/Nasa-Apod ";
 
 // This function tries to fetch the url passed and if it does not work
 // it throws an error. It awaits the response and moves it into json.
