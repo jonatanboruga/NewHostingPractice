@@ -5,8 +5,8 @@ const errorMsg = document.querySelector("error-msg");
 const dateInput = document.querySelector("#date-input");
 const submitButton = document.querySelector("#submit")
 
-import { NASA_API } from "./file.js";
-const apodURL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_API}`;
+const NASA_KEY = "H4fJiZhQWJG1pVlVoVtdk9p6YIjsTj4W2bv8BcTh";
+const apodURL = `https://api.nasa.gov/planetary/apod?api_key=${NASA_KEY}`;
 
 // This function tries to fetch the url passed and if it does not work
 // it throws an error. It awaits the response and moves it into json.
